@@ -36,7 +36,7 @@ class Bacteria
   Bacteria() {
     myX = 350; // change numbers later
     myY = 350; // change numbers later
-    mySize = 50;
+    mySize = 30;
   }
   void walk () {
     myX = myX + (int)(Math.random()*10)-5; // 10 and -5 determine how fast the dots move
